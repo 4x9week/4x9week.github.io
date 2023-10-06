@@ -134,7 +134,7 @@ img {
 
 .full-width-wrap {
   width: 100%;
-  padding: 40px 0;
+  padding: 64px 0;
 }
 
 .text-section {
@@ -168,13 +168,24 @@ h4 {
   line-height: 32px;
 }
 
-p {
+.questions p {
   color: #ffffff;
   font-family: "Inter-Regular", Helvetica;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 32px;
+}
+
+p {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-bottom: 36px;
+  margin-top: 0;
 }
 
 footer {
