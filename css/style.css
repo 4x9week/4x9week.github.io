@@ -9,6 +9,7 @@ body {
   margin: 0px auto;
   padding: 0;
   max-width: 880px;
+  text-align: left;
 }
 
 #flexwrapper {
@@ -74,27 +75,103 @@ body {
   line-height: normal;
 }
 
-.box1, .box2, .box3 {
-  width: 30%;
-  height: auto;
-  background-color: green;
-  text-align: left;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
+.x9 {
+  align-items: center;
+  display: inline-flex;
+  gap: 16px;
+  padding: 24px 0px 88px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.x9 .box {
+  height: 16px;
+  width: 16px;
+}
+
+.x9 .box1 {
+  background-color: #181818;
+}
+
+.x9 .box2 {
+  background-color: #afafaf;
+}
+
+.x9 .box3 {
+  background-color: #e1e1e1;
+}
+
+.x9 .box4 {
+  background-color: #ae55bd;
+}
+
+.x9 .box5 {
+  background-color: #5572bd;
+}
+
+.x9 .box6 {
+  background-color: #a3bd55;
+}
+
+.x9 .box7 {
+  background-color: #bda642;
+}
+
+.x9 .box8 {
+  background-color: #bd6e42;
+}
+
+.x9 .box9 {
+  background-color: #bd4242;
+}
+
+.text-section {
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #bda642;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 64px 0px;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+h4 {
+  color: #ffffff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 32px;
 }
 
 p {
-  font-family: helvetica;
-  font-size: 1em;
-  text-align: center;
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
 }
 
 footer {
   width: 80%;
   margin: 0 auto;
   height: autoem;
-  background-color: red;
+  background-color: #181818;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +180,7 @@ footer {
 footer span {
   color: white;
   margin: 0.75em auto 1.5em auto;
-  font-family: "Germania One";
+  font-family: Helvetica;
   font-size: 2em;
 }
 
