@@ -168,9 +168,9 @@ img {
 }
 
 .thumbnail-group a {
-height: auto;
-position: relative;
-width: 24%;
+  height: auto;
+  position: relative;
+  width: 24%;
 }
 
 
@@ -233,18 +233,52 @@ p {
 footer {
   width: 80%;
   margin: 0 auto;
-  height: autoem;
-  background-color: #181818;
+  padding: 48px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
 }
 
 footer span {
-  color: white;
-  margin: 0.75em auto 1.5em auto;
-  font-family: Helvetica;
-  font-size: 2em;
+  color: #fff;
+  margin: 24px auto;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+footer a {
+  color: #fff;
+  padding: 16px;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-content: center;
+  align-items: center;
+}
+
+footer a:hover {
+  color: #bda642;
+}
+
+footer a img {
+  height: 24px;
+  width: auto;
 }
 
 /*MEDIA QUERIES*/
