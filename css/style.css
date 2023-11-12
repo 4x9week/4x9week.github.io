@@ -50,7 +50,24 @@ img {
   margin: 0 auto 0 auto;
   padding: 0;
   gap: 16px;
+  flex-direction: column;
 }
+
+.p-s {
+  margin-bottom: 48px;
+  max-width: 640px;
+}
+
+.p-s p {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
 
 .header {
   align-items: center;
