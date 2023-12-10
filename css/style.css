@@ -179,7 +179,7 @@ img {
   align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    gap: 6px 8px;
+    gap: 1px 5px;
     position: relative;
     width: 100%;
     justify-content: center;
